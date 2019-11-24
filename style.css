@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, button {
 /* Header */
 header {
     margin-bottom: 80px;
+    background-color: hsl(217, 28%, 15%);
 }
 .logo {
     justify-content: space-between;
@@ -44,7 +45,6 @@ header {
 .intro {
     width: 50%;
     margin: auto; 
-    background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
     padding: 10px;
 }
