@@ -168,7 +168,7 @@ footer {
 .foo-col:first-child{
     flex-basis: 40%;
 }
-.foo-col:last-child {
+.social {
     padding-top: 20px;
 }
 .icon {
@@ -278,6 +278,7 @@ footer {
     }
     .social {
         text-align: center;
+        margin: auto;
     }
 }
 
@@ -288,9 +289,6 @@ footer {
         color: white;
         background-color: unset;
         border-radius: 50px;
-        padding: 5px 5px;
-    }
-    .logo {
-        /* width: 60px; */
+        padding: 5px;
     }
 }
