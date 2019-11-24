@@ -287,9 +287,17 @@ footer {
         color: hsl(0, 0%, 96%);
         background-color: unset;
         border-radius: 50px;
-        padding: 0px;
+        padding: 6px;
     }
 }
 
 @media (max-width: 375px){
+    .header-btn button {
+        outline: none;
+        border: 0px;
+        color: hsl(0, 0%, 96%);
+        background-color: unset;
+        border-radius: 50px;
+        padding: 2px;
+    }
 }
