@@ -11,7 +11,12 @@
         
         <style>
             @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
-            .attribution { font-size: 11px; text-align: center; }
+            .attribution {
+                font-size: 13px; 
+                text-align: center;
+                /* width: 80%;  */
+                /* margin: auto; */
+            }
             .attribution a { color: hsl(176, 68%, 64%); }
             .attribution a:hover {color: hsl(198, 60%, 50%);}
         </style>
@@ -51,7 +56,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <img src="images/icon-security.svg" alt="ic0n-security">
+                    <img src="images/icon-security.svg" style="" alt="icon-security">
                     <h3>Security you can trust</h3>
                     <p>
                         Factor authentication and user-controlled encryption 
@@ -102,7 +107,6 @@
         <section>
             <div class="container bg-quotes">
                 <img class="" src="images/bg-quotes.png" alt="bg-quotes">
-
             </div>
             <div class="container testimonials">
                 <div class="col">
@@ -152,7 +156,8 @@
                         It only takes a minute to sign up and our free starter tier is extremely 
                         generous. If you have any questions, our support team would be happy to help you.
                     </p>
-                    <input type="email"><button>Get Started For Free</button>
+                    <input type="email" placeholder="example@email.com">
+                    <button>Get Started For Free</button>
                 </div>
             </div>
         </section>
@@ -162,14 +167,14 @@
                 <img src="images/logo.svg" alt="">
             </div>
             <div class="container footer-content">
-                <div class="col">
+                <div class="foo-col">
                     <p>
                         <img src="images/icon-location.svg" alt="icon-location">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua
                     </p>
                 </div>
-                <div class="col">
+                <div class="foo-col" style="flex-shrink: 0;">
                     <p>
                         <img src="images/icon-phone.svg" alt="icon-phone">
                         +234-80-607-881-08
@@ -179,28 +184,28 @@
                         mubarakabubakar227@gmail.com
                     </p>
                 </div>
-                <div class="col">
+                <div class="foo-col">
                     <p><a href="#">About Us</a></p>
                     <p><a href="#">Jobs</a></p>
                     <p><a href="#">Press</a></p>
                     <p><a href="#">Blog</a></p>
                 </div>
-                <div class="col">
+                <div class="foo-col">
                         <p><a href="#">Contact Us</a></p>
                         <p><a href="#">Terms</a></p>
                         <p><a href="#">Privacy</a></p>
                 </div>
-                <div class="col">
-                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
-                    <a href="https://twitter.com/Programmer_4013" target="_blank"><i class="fab fa-twitter"> </i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <div class="foo-col social">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook icon"></i> </a>
+                    <a href="https://twitter.com/Programmer_4013" target="_blank"><i class="fab fa-twitter icon"> </i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram icon"></i> </a>
                 </div>
             </div>
-
-            <p class="attribution">
+            <p class="attribution foo-col">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
                 Coded by <a href="https://github.com/mubarak-bunza">M. A. Bunza</a>.
             </p>
+
         </footer>
         <script src="https://kit.fontawesome.com/6c35f8b6be.js" crossorigin="anonymous"></script>
     </body>
