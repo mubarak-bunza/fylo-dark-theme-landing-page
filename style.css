@@ -17,6 +17,7 @@ body {
     flex-direction: row;
     text-align: center;
     margin: 30px auto;
+    background-color: teal;
 }
 
 h1, h2, h3, h4, h5, button {
@@ -130,6 +131,11 @@ header {
 }
 
 /* Sign-Up */
+.sign-up{
+    /* padding: unset !important; */
+    background-color: tomato;
+
+}
 .sign-up .col {
     margin: auto;
     width: 60%;
@@ -161,6 +167,7 @@ header {
 
 /* Footer */
 footer {
+    margin-top: -30px;
     background-color: hsl(216, 53%, 9%);
 }
 .footer-logo {
